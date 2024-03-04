@@ -29,6 +29,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position:sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
 }
 .memoji {
   border: 1px solid #0d0d29;
@@ -109,7 +113,7 @@ svg {
 .home h2 {
   font-size: 2.3rem;
   /* line-height: 35px; */
-  padding: 0.9rem;
+  padding: 3rem 0.9rem 0.9rem 0.9rem;
   color: #0d0d29;
 }
 #head {
